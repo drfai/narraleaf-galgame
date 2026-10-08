@@ -1,0 +1,19 @@
+# 渲染中间产物 / 构建输出
+_*-build/
+*-build/
+_out/
+out/
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+
+# 由 init.mjs 复制出来的、绑定到具体工程的 toolkit 实例
+*-tools/
+
+# 本机配置：把路径写进 game.config.mjs 的那一份不要提交
+# （仓库里的 game.config.mjs 是模板，路径应为空）
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
